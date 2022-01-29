@@ -13,7 +13,7 @@ use App\Http\Controllers\Personcontroller;
 |
 */
 
-Route::get('/',[Personcontroller::class,'index']);
+Route::get('/',[Personcontroller::class,'index'])->name('ajax-datatable');
 
 Route::Post('/add-person',[Personcontroller::class,'store']);
 
