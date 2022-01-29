@@ -168,7 +168,7 @@
                 processing:true,
                 serverSide:true,
                 // sorting:true,
-                ajax:"{{ url('ajax-datatable') }}",
+                ajax:"{{ route('ajax-datatable') }}",
                 columns:[
                     {data:'DT_RowIndex',name:'DT_RowIndex'},
                     {data:'firstname',name:'firstname'},
